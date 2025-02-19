@@ -1,4 +1,6 @@
-<app-header />
-<app-sidebar />
+<app-header (toggleSidebar)="toggleSidebar()"></app-header>
+<app-sidebar [isOpen]="isSidebarOpen" (sidebarToggle)="toggleSidebar()"></app-sidebar>
+
 <router-outlet />
+
 <app-footer />

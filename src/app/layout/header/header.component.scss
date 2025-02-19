@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background: rgb(209, 209, 209);
+    color: white;
+    height: 60px;
+  }
+  
+  .menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    img {
+     width: 120px;
+    }
+  }
